@@ -6,11 +6,11 @@ Some useful recommender algorithms implemented in Python including pmf, bpmf, rb
 - scipy
 - matplotlib
 # Getting Started
-- Datasets
+## Datasets
 
 The moviedata.mat file is a small subset of Netflix data, which contains 6040 users and 3952 movies. The format of the dataset is triplet as {user_id, movie_id, rating}, which includes 900000 records as training set and 100209 records as validation set.
 
-- pmf
+## PMF
 
 PMF(Probabilistic Matrix Factorization) model which scales linearly with the number of observations and more importantly, performs well on large, sparse, and very imbalanced Netflix dataset.
 
