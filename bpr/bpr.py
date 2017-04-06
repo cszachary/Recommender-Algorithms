@@ -71,7 +71,7 @@ class BPR:
 		return j
 
 	def predict(self, u, i):
-		return self.I[i] + np.dot(self.U[u,:], self.I[i,:])
+		return self.bI[i] + np.dot(self.U[u,:], self.I[i,:])
 
 	def sigmoid(self, x):
 		return 1.0/(1.0 + np.exp(-x))
