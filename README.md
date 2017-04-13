@@ -31,5 +31,3 @@ To run the code just type:
 ```
 python bpr.py
 ```
-The loss curve on training set is shown as follows:
-![](https://github.com/cszachary/Recommender-Algorithms/blob/master/bpr/plot.png)
